@@ -21,7 +21,7 @@ body{
 .navbar_logo{
     width: 100%;
 }
-.nav_item{
+.button_primary{
     background-image: linear-gradient(
         to right,
         #ff512f 0%,
@@ -44,6 +44,9 @@ body{
 .hero_image_container{
     width: 100%;
 }
+.hero_image{
+    width:100%;
+}
 @media (min-width: 768px) {
     .navbar{
        
@@ -53,7 +56,7 @@ body{
     .navbar_brand{
         width: 150px;
     }
-    .nav_item{
+    .button_primary{
         padding: 20px;
         font-size: 20px;
 
@@ -62,6 +65,8 @@ body{
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+        justify-content: space-between;
+        gap: 10px;
     }
 }
 
@@ -70,7 +75,7 @@ body{
 
 @media (min-width: 1020px) {
     .container{
-        max-width: 1000px;
+        max-width: 1010px;
     }
     .hero_image_container{
         width: 500px;
